@@ -36,6 +36,28 @@ nav{
   font-size: 14px;
 }
 
+.burger{
+  display: none;
+}
+
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: #cfdee7;
+  margin: 5px;
+}
+
+@media screen and (max-width: 1024px){
+  .nav-links{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  body{
+    display: none;
+  }
+}
 
 
 
