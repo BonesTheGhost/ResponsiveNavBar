@@ -3,3 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: 'Rubik', sans-serif;
+  background-color: #10834d;
+}
+
+.logo{
+  color: #cfdee7;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 22px;
+}
+
+.nav-links{
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  color: #cfdee7;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+
+
+
+/*My palette:: #d62839 #16c172 #067bc2 #2c514c #cfdee7
+
+/*#067BC2 #84BCDA #ECC30B #F37748 #D56062*/
+/*#D7DEDC #CFCFCd #9A879D #7A3B69 #563440*/
+/*#696D7D #6F9283 #8D9F87 #CDC6A5 #F0DCCA*/
+/*#0A369D #4472CA #5E7CE2 #92B4F4 #CFDEE7*/
+/*#D62839 #BA324f #175676 #4BA3C3 #CCE6F4*/
+/*#638475 #90E39A #DDF093 #F6D0B1 #CE4760*/
+/*#4C5454 #FF715B #FFFFFF #1EA896 #523F38*/
+/*#2DE1FC #2AFC98 #09E85E #16C172 #214F4B*/
+/*#201E1F #FF4000 #FAAA8D #FEEFDD #50B2C0*/
+/*#BF4E30 #C6CCB2 #093824 #E5EAFA #78FECF*/
+/*#E3C0D3 #95818D #576066 #2C514C #122932*/
